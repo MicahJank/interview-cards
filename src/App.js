@@ -1,24 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
+import { Modal, Button } from 'antd';
+
+import { data } from './interview_data.js';
+
+import Question from './components/Question.js';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {data.map(question => {
+        return <Question title={question.title} />
+      })}
     </div>
   );
 }
