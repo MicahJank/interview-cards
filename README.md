@@ -35,15 +35,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-*** [![Github User Search Screenshot][product-screenshot]](https://example.com)
+[![Github User Search Screenshot][product-screenshot]](https://example.com)
 
-*** - use the search tool to find users based on their Github name
-*** - see user stats and list of followers
-*** - click on user card to see github contribution chart
+- use the search tool to find users based on their Github name
+- see user stats and list of followers
+- click on user card to see github contribution chart
 
 ### Built With
-*** * [React](https://reactjs.org/)
-*** * [Github API](https://docs.github.com/en/rest)
+* [React](https://reactjs.org/)
+* [Github API](https://docs.github.com/en/rest)
 
 
 
