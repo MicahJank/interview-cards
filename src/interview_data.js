@@ -42,11 +42,81 @@ export const data = [
         result: ["re iterate how my experience with the project helps show i am a good fit for the job"]
     },
     {
-        title: "",
-        goals: [],
+        title: "What's your dream job?",
+        goals: ["the interviewer asks this question because they want to assess your motivation for the job you are applying for", "reference some elements of the job", "brainstorm things about the job that are appealing to me"],
+        setting_task: ["talk about how i enjoy problem solving and being analytical", "puzzle games have always been a favorite of mine"],
+        action: ["dream job would be a job where i can use my brain daily and solve problems"],
+        result: ["building things while problem solving is my ideal job"]
+    },
+    {
+        title: "Can you explain why you changed career paths?",
+        goals: ["the interviewer asks the question because they want to make sure you are looking for a new job and leaving your old one for the right reasons", "dont be negative about past employment"],
+        setting_task: ["grew up working in mostly manufacturing", "did some work in audio captioning, but every job had the same problem, i wasnt problem solving"],
+        action: ["started lambda school to pursue web development and realized its something i really love doing"],
+        result: ["now that i am done with lambda i feel ready to find a job in programming"]
+    },
+    {
+        title: "How do you deal with pressure or stressful situations?",
+        goals: ["the interviewer wants to know how i handle job related stress also what i do specifically in stressful situations at work", "the important thing is to show the interviewer how i manage stress"],
+        setting_task: ["talk about sprint challenges at lambda school", "they were timed tests", "they were challenging and stressful at times"],
+        action: ["what i did to handle the stress was make sure i understood clearly what the challenge was asking of me", "made sure to have my past projects pulled up and ready to review in case i needed to reference them", "basically being prepared is what helps me manage my stress the best"],
+        result: ["as a result i never failed a lambda school challenge", "and most of the times i got 3 stars on my challenges which basically just means i went above and beyond what was required of me"]
+    },
+    {
+        title: "What would your first 30, 60, or 90 days look like in this role?",
+        goals: ["I should frame it in a way where i want to get experience and learn from fellow colleagues"],
+        setting_task: ["Talk about how one thing i learned when i started attending Lambda is that there are a lot of smart people there", "people with more experience than me who i could learn from"],
+        action: ["Similarly when i start the job there will be a lot of people who are smarter and more experienced than me", "i want to be able to learn as much as i can from my coworkers and colleagues"],
+        result: ["just soak up all the information i can and keep working to get that neccessary experience"]
+    },
+    {
+        title: "Give an example of a goal you reached and tell me how you achieved it",
+        goals: ["the interviewer wants to know whether you can achieve goals that you set for yourself"],
+        setting_task: ["talk about lambda school and how i realized that practicing code challenges every day was a common theme among people who were successful"],
+        action: ["i realized that every day after class i had about a half hour to an hour of free time so i decided to use that time to do code challenges"],
+        result: ["and so far i have been successful in keeping it","it has helped me to keep me on my toes and keep my programming skills sharp"]
+    },
+    {
+        title: "Have you ever made a mistake? How did you handle it?",
+        goals: ["this question is asked to see how i handle challenges", "try to make it a mistake that i made as a team with others"],
+        setting_task: ["talk about when i was working on a project at lambda school with a group of 6 other developers", "we were all working on our own separate git branches and we decided to create a dev branch that we could all merge our own branches into before merging it into the main branch", "documentation specifically said we shouldnt do that"],
+        action: ["luckily we caught our mistake fairly early and we were able to just delete that branch and then merge directly into the main branch from then on"],
+        result: ["takeway is that it really helped cement in my mind just how important the documentation is and to make sure i know exactly what it calls for"]
+    },
+    {
+        title: "When you worked on multiple projects how did you prioritize?",
+        goals: ["Explain factors that go into giving priority", "Explain how you incorporate those factors into your decision"],
+        setting_task: ["talk about trello and what it is, explain a bit"],
+        action: ["i use trello for organizing my projects"],
+        result: ["basically i like having a way to break things  down into smaller more manageable chunks that i can then tackle", "doing this helps me to see more clearly what is a priority"]
+    },
+    {
+        title: "Have you had to convince a team to utilize a tool/language they weren't thrilled about?",
+        goals: ["the interviewer wants to know that i can be persuasive"],
+        setting_task: ["talk about how i had to convince someone to use version control/github rather than just saving their work locally"],
+        action: ["i highlighted all the benefits of using github like collaboration, the ease in which you can just push your files from your IDE and also its ability to keep track of everything you have done through its commit history and how that helps you when you want to revert back to an older version if needed."],
+        result: ["i was able to convince them by showing them how easy it is to get starting with git commands and now they love it"]
+    },
+    {
+        title: "Have you ever had a project that had to change drastically while it was in progress? Why? How did you do it?",
+        goals: ["the interviewer wants to see how I adapt to changing circumstances/difficulty"],
+        setting_task: ["talk about my labs project and how my team initially wanted to use graphql for the backend"],
+        action: ["realized that usign graphql was hindering us more than helping us since a good portion of the team didnt know how to use it",],
+        result: ["the agile approach we took to the project helped in deciding this since we were communcating a lot about what was and wasnt working and we were able to boost our performance and speed because of the switch we took"]
+    },
+    {
+        title: "Tell me about a major setback you've had. How did you deal with it?",
+        goals: ["Interviewers want to learn how you maintain your composure, attitude, energy, and focus when you aren't successful."],
+        setting_task: ["talk about during a buildweek i needed to implement a form and authorization from the backend, which i had never done before", "plus we were already crunched for time as it was so i was pretty stressed about it"],
+        action: ["i took the time to look into how to do authorization and spent a few hours looking up and reading info until something clicked"],
+        result: ["i was able to implement the authorization and get everything working fairly quickly after doing the work to figure it out"]
+    },
+    {
+        title: "Describe the internet to someone who just woke up from a 30-year coma.",
+        goals: ["think of the internet as a giant public library of information that you can access anywhere through your device, either a computer or your phone"],
         setting_task: [],
         action: [],
         result: []
-    }
+    },
 ]
 
