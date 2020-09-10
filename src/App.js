@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {data.map(question => {
-        return <Question title={question.title} />
+        return <Question title={question.title} goals={question.goals} setting={question.setting_task} action={question.action} result={question.result} />
       })}
     </div>
   );
