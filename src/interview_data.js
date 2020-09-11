@@ -118,5 +118,68 @@ export const data = [
         action: [],
         result: []
     },
+    {
+        title: "Tell me about a group project that you are passionate about?",
+        goals: ["The hiring manager is looking to learn as much as possible about you and what you can bring to the company, in addition to the skills that qualify you for the job."],
+        setting_task: ["talk about tidy hive at lambda school and what labs is"],
+        action: ["talk about how it was the first project i did that felt like how a real world project would be", "we had a project manager, a full team of web developers", "a UX designer that we could consult with"],
+        result: ["talk about what i am doing now with the project", "worked on the account settings page", "fixing bugs etc", "just trying to make it better"]
+    },
+    {
+        title: "Tell me about a time where you and your teammates did not agree?",
+        goals: ["For the most part, the questions is asked to determine if you are a team player, to ascertain whether you are coachable, and to gauge how well you function under stress."],
+        setting_task: ["talk about the time when i was doubtful about how my backend developer was handling their routes and how the data was being structured"],
+        action: ["decided to just let it be but remembered being slightly annoyed that he couldnt see it my way"],
+        result: ["found out that his way actually did end up being good, even better than my way", "helped me to remember that just because i have a way of doing things doesnt mean its the only way, or the best way"]
+    },
+    {
+        title: "What are your salary requirements?",
+        goals: [" Employers may ask this question to get a sense of whether or not they can afford your help. They might also ask you this to see how much you value yourself and your work."],
+        setting_task: ["Research the company and the role and find out what is a reasonable salary range, try to make it sound flexible"],
+        action: [],
+        result: []
+    },
+    {
+        title: "What do you know about our company?",
+        goals: ["Do you care enough about the organization and the role to do your research before coming into the job interview?", "Are you a good researcher?"],
+        setting_task: ["RESEARCH THE COMPANY"],
+        action: [],
+        result: []
+    },
+    {
+        title: "A time you showed initiative",
+        goals: ["Taking initiative is a quality that’s valued by the most successful companies. It’s what drives productivity and creates disruption. So, it only makes sense to hire candidates who strongly demonstrate this kind of behaviour."],
+        setting_task: [],
+        action: [],
+        result: []
+    },
+    {
+        title: "",
+        goals: [],
+        setting_task: [],
+        action: [],
+        result: []
+    },
+    {
+        title: "",
+        goals: [],
+        setting_task: [],
+        action: [],
+        result: []
+    },
+    {
+        title: "",
+        goals: [],
+        setting_task: [],
+        action: [],
+        result: []
+    },
+    {
+        title: "",
+        goals: [],
+        setting_task: [],
+        action: [],
+        result: []
+    },
 ]
 
