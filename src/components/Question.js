@@ -1,6 +1,22 @@
 import React, { useState } from 'react';
 import { Modal, Button, Divider } from 'antd';
 
+import styled from 'styled-components';
+
+
+const Card = styled.div`
+border: 1px solid black;
+width: 200px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+&:hover {
+  cursor: pointer;
+}
+`;
 
 const Question = (props) => {
     const [visibility, setVisibility] = useState(false);
@@ -22,7 +38,7 @@ const Question = (props) => {
 
     return (
         <>
-            <Button onClick={showModal}>{title}</Button>
+            <Card className="question" onClick={showModal}>{title}</Card>
             <Modal width={1000} style={{ top: 20 }} title={title} visible={visibility} onOk={handleOk} onCancel={handleCancel}>
                 <h3>Goal of this question</h3>
                 {goals.map(line => <h4>- {line}</h4>)}

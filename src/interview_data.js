@@ -1,10 +1,10 @@
 export const data = [
     {
         title: "Tell me a little bit about yourself?",
-        goals: ["The goal of this question is for the interviewer to get to know you", "I should explain where i came from", "what ive done, the jobs ive had", "what got me into coding", "what lead me to apply for this job"],
-        setting_task: ["grew up overseas", "came to and from the USA occasionally but didnt move permanently until i was about 18", "was always interested in coding/programming but never persued it - figured i needed a formal education to get the job", "got work in manufacturing", "but got tired of working an unfufilling job"],
-        action: ["i decided to persue a coding career by going to an online school called lambda school", "really enjoyed my experience"],
-        result: ["now i am here, hoping to get into the software engineering workspace"]
+        goals: ["The goal of this question is for the interviewer to get to know you", "I should explain where i came from"],
+        setting_task: ["my name", "recently graduated from an online technical training program that specialized in web development and computer science fundamentals", "also had a heavy emphasis on group project work and tried to mimic the product development lifecycle"],
+        action: ["learned javascript, react - global state management systems like redux", "also had the opportunity to become a TL while attending lambda", "talk about what a TL does"],
+        result: ["i am a team player, work well with lots of different types of people", "excited to be here and to potentially bring my skillset to your company"]
     },
     {
         title: "What kind of work environment are you looking for in the next opportunity you take?",
@@ -153,33 +153,33 @@ export const data = [
         action: [],
         result: []
     },
-    {
-        title: "",
-        goals: [],
-        setting_task: [],
-        action: [],
-        result: []
-    },
-    {
-        title: "",
-        goals: [],
-        setting_task: [],
-        action: [],
-        result: []
-    },
-    {
-        title: "",
-        goals: [],
-        setting_task: [],
-        action: [],
-        result: []
-    },
-    {
-        title: "",
-        goals: [],
-        setting_task: [],
-        action: [],
-        result: []
-    },
+    // {
+    //     title: "",
+    //     goals: [],
+    //     setting_task: [],
+    //     action: [],
+    //     result: []
+    // },
+    // {
+    //     title: "",
+    //     goals: [],
+    //     setting_task: [],
+    //     action: [],
+    //     result: []
+    // },
+    // {
+    //     title: "",
+    //     goals: [],
+    //     setting_task: [],
+    //     action: [],
+    //     result: []
+    // },
+    // {
+    //     title: "",
+    //     goals: [],
+    //     setting_task: [],
+    //     action: [],
+    //     result: []
+    // },
 ]
 
