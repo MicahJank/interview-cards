@@ -153,13 +153,13 @@ export const data = [
         action: [],
         result: []
     },
-    // {
-    //     title: "",
-    //     goals: [],
-    //     setting_task: [],
-    //     action: [],
-    //     result: []
-    // },
+    {
+        title: "Tell me about some negative feedback you've received and how were you able to handle/resolve it",
+        goals: ["The employer is hoping to judge your ability to handle criticism."],
+        setting_task: ["start of lambda, working on a project where i was supposed to make a site responsive", "team lead told me i was getting a horizontal scroll bar "],
+        action: ["so i opened back up my project and tried to find what was causing the issue", "ended up being a picture that was too big for its parent container"],
+        result: ["but as a result my project ended up being better for it", "talk about the benefits of constructive criticism"]
+    },
     // {
     //     title: "",
     //     goals: [],
