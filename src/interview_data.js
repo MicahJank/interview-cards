@@ -160,13 +160,13 @@ export const data = [
         action: ["so i opened back up my project and tried to find what was causing the issue", "ended up being a picture that was too big for its parent container"],
         result: ["but as a result my project ended up being better for it", "talk about the benefits of constructive criticism"]
     },
-    // {
-    //     title: "",
-    //     goals: [],
-    //     setting_task: [],
-    //     action: [],
-    //     result: []
-    // },
+    {
+        title: "What skills have you learned from working on a team",
+        goals: [],
+        setting_task: ["at lambda school we did a lot of group projects where we would have 6+ developers all working together to create something", "ive worked as both a developer for these projects as well as a project lead, who overseees kinda the development of the project"],
+        action: ["communication is key. talk about how projects that didnt have communication almost always failed and project where everyone could communicate freely succeeded"],
+        result: ["re iterate the importance of communication and how through these experiences, it has helped me greatly not only improve my communication skills but also see the importance of it"]
+    },
     // {
     //     title: "",
     //     goals: [],
