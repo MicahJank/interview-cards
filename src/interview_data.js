@@ -94,7 +94,7 @@ export const data = [
         title: "Where do you see yourself in 3-5 years?",
         goals: ["this question is asked because because the interviewer wants to know if your career goals align with the company's", "research a reasonable career path that would flow from the position that i am applying for "],
         setting_task: ["want to have graduated from a junior to a senior engineer by then"],
-        action: ["hopefully will be working at a company that fosters growth where i can keep learning new things"],
+        action: ["hopefully will be working at a company that fosters growth where i can keep learning new things"], 
         result: ["and where i can help the company succeed and while the company also helps me succeed"]
     },
 
